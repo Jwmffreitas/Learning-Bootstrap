@@ -5,3 +5,30 @@
 body {
     background-color: blue;
 }
+
+.quemsomos {
+    background-color: cadetblue;
+    color: black;
+}
+
+.margin {
+    padding: 3px;
+}
+
+.quemsomos img {
+    border-radius: 50%;
+}
+
+.quemsomos .superman {
+    border-radius: 0%;
+}
+
+.parceiros {
+    background-color: yellow;
+    color: black;
+}
+
+.viloes {
+    background-color: indigo;
+    color: white;
+}
