@@ -11,6 +11,10 @@ body {
     color: black;
 }
 
+.lj {
+    margin-bottom: 40px;
+}
+
 .margin {
     padding: 3px;
 }
@@ -31,4 +35,13 @@ body {
 .viloes {
     background-color: indigo;
     color: white;
+}
+
+footer {
+    background-color:black;
+    color: white;
+}
+
+#viloes .container {
+    padding: 5px;
 }
