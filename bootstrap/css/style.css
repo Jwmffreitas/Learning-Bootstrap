@@ -1,5 +1,6 @@
 .navbar {
     background-color:white;
+    box-shadow: black 3px 3px 10px;
 }
 
 body {
@@ -7,8 +8,8 @@ body {
 }
 
 .quemsomos {
-    background-color: cadetblue;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .lj {
@@ -20,11 +21,10 @@ body {
 }
 
 .quemsomos img {
-    border-radius: 50%;
 }
 
 .quemsomos .superman {
-    border-radius: 0%;
+    border-radius: 50%;
 }
 
 .parceiros {
