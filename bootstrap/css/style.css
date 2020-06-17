@@ -13,14 +13,21 @@ body {
 }
 
 .lj {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 50px;
+    text-shadow: white 0px 0px 3px;
 }
 
 .margin {
     padding: 3px;
 }
 
-.quemsomos img {
+.quemsomos h3 {
+    margin-top: 10px;
+}
+
+.quemsomos .batman {
 }
 
 .quemsomos .superman {
@@ -28,14 +35,75 @@ body {
 }
 
 .parceiros {
-    background-color: yellow;
+    background-image: linear-gradient(to bottom, black, indigo);
+    color: white;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: white 0px 0px 3px;
+    display: grid;
+    justify-items: center;
+}
+
+.tamanho {
+    font-size: 40px;
+}
+
+.barraww {
+    background-color: white;
+    width: 300px;
+    border-radius: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: indigo;
+    box-shadow: black 0px 0px 10px;
+}
+
+.barraww h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.barraflash {
+    background-color: white;
+    width: 300px;
+    border-radius: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: indigo;
+    box-shadow: black 0px 0px 10px;
+}
+
+.barraflash h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.barrahal {
+    background-color: white;
+    width: 300px;
+    border-radius: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: indigo;
+    box-shadow: black 0px 0px 10px;
+}
+
+.barrahal h3 {
+    font-size: 30px;
     color: black;
 }
 
 .viloes {
     background-color: indigo;
     color: white;
+    display: grid;
+    justify-items: center;
 }
+
+.viloes h3{
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: white 0px 0px 3px;
+    font-size: 50px;
+} 
 
 footer {
     background-color:black;
