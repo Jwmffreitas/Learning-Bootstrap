@@ -59,11 +59,18 @@ body {
     border-style: solid;
     border-color: indigo;
     box-shadow: black 0px 0px 10px;
+    transform: scale(1.0);
+    transition: 1s;
 }
 
 .barraww h3 {
     font-size: 30px;
     color: black;
+}
+
+.barraww img:hover {
+    transform: scale(1.3);
+    transition: 1s;
 }
 
 .barraflash {
@@ -81,6 +88,11 @@ body {
     color: black;
 }
 
+.barraflash img:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
 .barrahal {
     background-color: white;
     width: 300px;
@@ -94,6 +106,11 @@ body {
 .barrahal h3 {
     font-size: 30px;
     color: black;
+}
+
+.barrahal img:hover {
+    transform: scale(1.3);
+    transition: 1s;
 }
 
 .viloes {
