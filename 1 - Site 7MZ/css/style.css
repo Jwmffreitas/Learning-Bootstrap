@@ -23,6 +23,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Yt {
+    width: 50%;
+}
+
+.canal {
+    width: 50%;
+    display: grid;
+    justify-content: right;
 }
 
 .MZ {
@@ -30,16 +41,20 @@ body {
     align-items: center;
     position: relative;
     height: 210px;
+    transition: 500ms;
+    width: 500px;
+    padding-left: 10px;
 }
 
 .MZ img {
     position: absolute;
-    right: 5px;
+    right: 10px;
 }
 
 .MZ:hover {
     background-color: white;
-    transition: 1s;
-    width: 300px;
+    box-shadow: rgb(99, 99, 99) 0px 0px 20px;
+    transition: 500ms;
+    width: 500px;
     border-radius: 20px;
 }
