@@ -1,3 +1,45 @@
 html, body {
     scroll-behavior: smooth;
 }
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.Primeira {
+    height: 100%;
+    background-image: url(../img/AkatsukiPB1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.Akatsuki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MZ {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 210px;
+}
+
+.MZ img {
+    position: absolute;
+    right: 5px;
+}
+
+.MZ:hover {
+    background-color: white;
+    transition: 1s;
+    width: 300px;
+    border-radius: 20px;
+}
